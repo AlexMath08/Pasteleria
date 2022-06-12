@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería | Dolce Vita</title>
+    <title>Icon-Whatsapp</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/galeria.css">
+    <script src="https://kit.fontawesome.com/6fb525b923.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <a href="https://api.whatsapp.com/send?phone=Tu-n%C3%B9mero-aqu%C3%AD" class="btn-wsp" target="_blank">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+    <div class="modal" id="modal">
+        <div class="modal__content">
+            <img src="" alt="" class="modal__img" id="modal__img">
+            <div class="modal__boton" id="modal__boton">X</div>
+        </div>
+    </div>
+    <header class="main-header">
+        <div class="container container--flex">
+            <div class="logo-container column column--50">
+             <h1 class="logo">Dolce Vita</h1>
+            </div>
+            
+            <p class="main-header__contactInfo__address">
+            <span class="icon-location">Shoping Alto Palermo - Buenos Aires, Argentina </span>
+            </p>
+        </div>
+    </header>
+    <nav class="main-nav">
+        <div class="container container--flex">
+            <span class="icon-menu" id="btnmenu"><i class="fa-solid fa-bars"></i></span>
+            <ul class="menu" id="menu">
+                <li class="menu__item"><a href="/" class="menu__link">Inicio</a></li>
+                <li class="menu__item"><a href="galeria.html" class="menu__link menu__link--select">Galería</a></li>
+                <li class="menu__item"><a href="nosotros.html" class="menu__link">Nosotros</a></li>
+                <li class="menu__item"><a href="contacto.html" class="menu__link">Contacto</a></li>
+                
+            </ul>
+            <div class="social-icon">
+                <a href="https://es-la.facebook.com/" class="social-icon__link"><span class="icon-facebook"><i class="fa-brands fa-facebook"></i></span></a>
+                <a href="https://twitter.com/?lang=es" class="social-icon__link"><span class="icon-twitter"><i class="fa-brands fa-twitter"></i></span></a>
+                <a href="https://www.instagram.com/?hl=es-la" class="social-icon__link"><span class="icon-instagram"><i class="fa-brands fa-instagram-square"></i></span></a>
+                <a href="https://www.youtube.com/" class="social-icon__link"><span class="icon-youtube"><i class="fa-brands fa-youtube"></i></span></a>
+                <a href="https://www.gmail.com/mail/help/intl/es/about.html?iframe" class="social-icon__link"><span class="icon-mail"><i class="fa-solid fa-envelope"></i></span></a>
+
+            </div>
+        </div>
+    </nav>
+
+    <section class="banner">
+        <img src="img/n10.jpg" alt="" class="banner__img">
+        <div class="banner__content">Nuestro lado mas dulce a tu disposición</div>
+    </section>
+
+    <main class="main">
+        <div class="group gallery">
+            <h2 class="group__title">Nuestra Galería</h2>
+            <div class="container container--flex">
+                <div class="column column--50-25">
+                    <img src="img/n1.jpg" alt="" class="gallery__img gallery__img--big">
+                    <img src="img/n2.jpg" alt="" class="gallery__img gallery__img--small">
+                </div>
+                <div class="column column--50-25">
+                    <img src="img/n3.jpg" alt="" class="gallery__img gallery__img--small">
+                    <img src="img/n4.jpg" alt="" class="gallery__img gallery__img--big">
+                </div>
+                <div class="column column--50-25">
+                    <img src="img/n5.jpg" alt="" class="gallery__img gallery__img--big">
+                    <img src="img/n7.jpg" alt="" class="gallery__img gallery__img--small">
+                </div>
+                <div class="column column--50-25">
+                    <img src="img/n8.jpg" alt="" class="gallery__img gallery__img--small">
+                    <img src="img/n9.jpg" alt="" class="gallery__img gallery__img--big">
+                </div>
+            </div>
+
+        </div>
+
+        
+    </main>
+    <footer class="main-footer">
+        <div class="container container--flex">
+            <div class="column column--33">
+                <h2 class="column__title">¿Por qué visitarnos?</h2>
+                <p class="column__txt">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam suscipit
+                    assumenda ipsum asperiores eius voluptates commodi officia beatae.</p>
+            </div>
+            <div class="column column--33">
+                <h2 class="column__title">Contáctanos</h2>
+                <p class="column__txt">Cabello 3125 - Palermo chico, Buenos aires - Argentina</p>
+                <p class="column__txt">Teléfono: 11-2256-4789</p>
+                <p class="column__txt">consulta@dolcevida.com</p>
+            </div>
+            <div class="column column--33">
+                <h2 class="column__title">Síguenos en nuestras redes</h2>
+                <p class="column__txt"><a href="https://es-la.facebook.com/" class="icon-facebook fa-brands fa-facebook">Facebook</a></p>
+                <p class="column__txt"><a href="https://www.instagram.com/?hl=es-la" class="icon-instagram fa-brands fa-instagram-square">Síguenos en Instagram</a></p>
+                <p class="column__txt"><a href="https://www.youtube.com/" class="icon-youtube fa-brands fa-youtube"> Visita nuestro canal</a></p>
+            </div>
+            <p class="copy">2022 Dolce Vita - Todos los derechos reservados</p>
+        </div>
+    </footer>
+<script src="js/menu.js"></script>
+<script src="js/modal.js"></script>
+</body>
+
+</html>

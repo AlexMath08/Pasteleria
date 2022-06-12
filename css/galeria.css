@@ -1,0 +1,100 @@
+.btn-wsp
+{
+    position: fixed;
+    width: 45px;
+    height: 45px;
+    line-height: 42px;
+    bottom: 20px;
+    right: 20px;
+    background: #0DF053;
+    color: white;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+    z-index: 100;
+}
+
+.btn-wsp:hover
+{
+    text-decoration: none;
+    color: #0DF053;
+    background: #fff;
+}
+
+.gallery__img
+{
+    object-fit: cover;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: all 0.5s;
+    filter: grayscale(1);
+}
+
+.gallery__img:hover
+{
+    transform: scale(1.02);
+    filter: grayscale(0);
+}
+
+.gallery__img--big
+{
+    height: 400px;
+}
+
+.gallery__img--small
+{
+    height: 200px;
+}
+
+.group__title
+{
+    color: rgb(153, 8, 63);
+}
+
+.modal
+{
+    width: 100%;
+    min-height: 100vh;
+    background: rgba(0, 0, 0,0.9);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000000;
+    display: none;
+}
+
+.modal__content
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.modal__img
+{
+    width: 50%;
+}
+
+.modal__boton
+{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    background: rgb(153, 8, 63);
+    font-size: 1.5em;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.modal--open
+{
+    display: block;
+}

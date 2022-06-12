@@ -1,0 +1,148 @@
+.btn-wsp
+{
+    position: fixed;
+    width: 45px;
+    height: 45px;
+    line-height: 42px;
+    bottom: 20px;
+    right: 20px;
+    background: #0DF053;
+    color: white;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+    z-index: 100;
+}
+
+.btn-wsp:hover
+{
+    text-decoration: none;
+    color: #0DF053;
+    background: #fff;
+}
+
+.ubication
+{
+   filter: grayscale(1);
+   width: 100%;
+   height: 100%;
+}
+
+.ubication:hover
+{
+    filter: grayscale(0);
+}
+
+.contact-information
+{
+    padding: 10px;
+    padding-top: 0;
+    margin-bottom: 30px;
+    border-bottom: 1px solid rgb(153, 8, 63);
+}
+
+.contact-information .column__title
+{
+    color: rgb(153, 8, 63);
+    font-weight: 100;
+    font-size: 1.5em;
+}
+
+.group__title
+{
+    color: rgb(153, 8, 63);
+    font-weight: 100;
+}
+
+.contact-information [class*="icon-"]
+{
+    font-size: 1.3em;
+    margin-right: 7px;
+    position: relative;
+    
+}
+
+.contact-information .social-icon
+{
+    justify-content: flex-start;
+    margin-bottom: 10px;
+}
+
+.contact-information .social-icon [class*="icon-"]
+{
+    background: rgb(153, 8, 63);
+    color: black;
+    margin-left: 0;
+    margin-right: 15px;
+}
+
+.formulario
+{
+    padding: 10px;
+    padding-top: 0;
+}
+
+.formulario__label, .formulario__input-txt, .formulario__textarea
+{
+    display: block;
+    width: 100%;
+}
+
+.formulario__input-txt
+{
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.formulario__textarea
+{
+    min-height: 100px;
+    min-width: 100%;
+    max-width: 100%;
+    max-height: 200px;
+}
+
+.formulario__btn
+{
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+
+@media screen and (min-widht:480px)
+{
+    .contact .container--flex
+    {
+        align-items: flex-start;
+    }
+
+    .contact-information p {
+        font-size: .8em;
+    }
+
+    .contact-information
+    {
+        border-right: 1px solid  rgb(153, 8, 63);
+        border-bottom: none;
+    }
+}
+
+@media screen and (min-widht:768px)
+{
+    .contact-information p {
+        font-size: 1em;
+    }
+
+    .contact-information .column__title
+    {
+        font-size: 1.5em;
+    }
+
+    .contact-information
+    {
+        border-right: 1px solid  rgb(153, 8, 63);
+        border-bottom: none;
+    }
+}
